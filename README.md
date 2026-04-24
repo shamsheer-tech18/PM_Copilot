@@ -99,24 +99,6 @@ Two of the three models cost nothing, keeping the system nearly free to operate.
 - Python 3.10+
 - API keys for OpenAI, Google Gemini, and Groq
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/PM-Copilot.git
-cd PM-Copilot
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-cp .env.example .env
-# Open .env and add your API keys
-
-# Run the app
-streamlit run app.py
-```
-
 ### Environment Variables
 
 Create a `.env` file in the project root with the following:
@@ -146,28 +128,6 @@ All generated in **under 90 seconds**.
 
 ---
 
-## 📂 Repository Structure
-
-```
-PM-Copilot/
-├── app.py                          # Main Streamlit application
-├── requirements.txt                # Python dependencies
-├── .env.example                    # Environment variable template
-├── .gitignore                      # Git ignore rules
-├── README.md                       # This file
-├── LICENSE                         # MIT License
-├── notebooks/
-│   └── PM_Copilot_Final_Notebook.ipynb   # Development notebook with explanations
-├── docs/
-│   ├── PMCopilot_Project_Report.pdf      # Detailed project report
-│   ├── Presentation_Script.pdf           # Presentation speaking notes
-│   └── PM_Copilot_Presentation.pptx      # Slide deck
-└── assets/
-    └── architecture_diagram.png          # System architecture visual
-```
-
----
-
 ## 🧩 Challenges & Learnings
 
 - **Gemini quota limits** — Free tier ran out mid-demo; added graceful fallback messaging.
@@ -184,18 +144,6 @@ PM-Copilot/
 - Direct export to Jira, Notion, and Confluence
 - Fine-tuned models trained on PRD-specific corpora
 - Competitive battle cards and OKR generation modules
-
----
-
-## 👥 Team
-
-| Name | Role |
-|---|---|
-| **Shamsheer Syed Hussain** | Product Manager & Developer |
-| **Prakriti Mishra** | Developer |
-| **Abhinav Nandhigama** | Developer |
-
-Built as part of **IE5374 Applied Generative AI** · Dr. Dehghani · Northeastern University · Spring 2026
 
 ---
 
